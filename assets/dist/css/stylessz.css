@@ -12,6 +12,11 @@
   }
 }
 
+.navspace { 
+  padding-top: 110px; 
+}
+
+
 .maincover { background: url('../../img/cover.jpg') center; 
   max-width: 1200px;  
   -webkit-background-size: cover; 
