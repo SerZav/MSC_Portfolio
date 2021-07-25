@@ -19,6 +19,19 @@ body{
   padding-top: 120px; 
 }
 
+.accordion-body
+{
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: left;
+}
+
+p {
+  font-size: 20px;
+}
+a {
+  font-size: 20px;
+}
 .navspaceInContent { 
   margin-top: 240px;
   box-sizing: border-box;
@@ -29,8 +42,27 @@ body{
 {
   margin-left: 20px;
 }
-.fa-check{
+
+.fas
+{
   color:cornflowerblue;
+  margin-right: 10px;
+}
+
+.fab
+{
+  color:cornflowerblue;
+  margin-right: 10px;
+}
+
+.fa-linkedin { color:cornflowerblue;}
+
+.fa-github {
+  margin-right: 5px;
+  margin-left: 20px;
+}
+.accordion-button{
+  text-align: center;
 }
 
 .goTo
