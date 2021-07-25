@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <title>OOIS Unit 4 / e-Portfolio / MSc Computer Science</title>
+    <title>OOIS Unit 4/ e-Portfolio / MSc Computer Science</title>
     
     <!-- Bootstrap core CSS -->
     <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -23,12 +23,12 @@
             <div class="row" >
               <div class="col-sm-8 col-md-7 py-4">
                 <h4 class="text-white">About me</h4>
-                <p class="text-muted">Still under construction.</p>
+                <p class="text-muted">More than 10 years of Programming experience, working with several languages including C#, Visual Foxpro,Visual Basic and some knowledge in Python and C; experience with MS SQL and Oracle. Experience inmultiplatform, multi language projects, during all the software development process, using agile methodologies.Database administration skills. Web design knowledge including HTML, CSS and Javascript.</p>
               </div>
               <div class="col-sm-4 offset-md-1 py-4">
                 <h4 class="text-white">Contact</h4>
                 <ul class="list-unstyled">
-                  <li><a href="#" class="text-white"><i class="fas fa-paper-plane"></i>Email me</a></li>
+                  <li><a href="http://linkedin.com/in/sergio-zavarce-43538753" class="text-white"><i class="fab fa-linkedin fa-2x"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -54,72 +54,233 @@
         <div class="row subtitleCompact" data-aos="fade-up" data-aos-duration="3000">
           <p class="lead">Object-oriented Information Systems</p>
           <div>
-            <p class="lead"><i class="fas fa-book-open"></i> UNIT 4
-              <!-- <i class="fas fa-angle-double-right"></i><a href="#" class="goTo">Learning outcomes</a>
-              <i class="fas fa-angle-double-right"></i><a href="#artefacs">artefacs</a> -->
-              <a href="#" class="goTo">Learning outcomes</a>
-              <a href="#artefacs" class="goTo">Artefacs</a>
-              <a href="#notes" class="goTo">Meeting notes</a>
-              <a href="#reflections" class="goTo">Reflections</a>
-            </p>
+            <p class="lead"><i class="fas fa-book-open"></i> UNIT 4 - Object-Oriented Development and Python</p>
           </div>
         </div>        
       </nav>
     </header>
 
     <main>
-      <section class="py-8 text-center navspaceInContent">
-        <div class="row py-lg-7">
-          <div class="col-lg-12 col-md-8 mx-auto ">
-            <!-- <img class="img-fluid"  src="assets/img/cover.jpg" alt="Cover"> -->
-    
-            <!-- <h1 class="fw-normal title" >My e-Portfolio</h1> -->
-            <!-- <div class="row subtitle" data-aos="fade-up" data-aos-duration="3000">
-              <p class="lead">Object-oriented Information Systems</p>
-              <p class="lead"><i class="fas fa-book-open"></i> UNIT 1</p>
-            </div> -->
-            <div class="row subtitle2">
+      <div class="accordion text-center navspaceInContent" id="accordionExample">
+        <!-- LEARNING OUTCOMES -->
+        <div class="accordion-item">
+          <h2 class="accordion-header " id="learningHeading">
+            <button class="accordion-button subtitle2 btn-primary " type="button" data-bs-toggle="collapse" data-bs-target="#learning" aria-expanded="true" aria-controls="learning">
               <p class="lead">Learning outcomes</p>
+            </button>
+          </h2>
+          <div id="learning" class="accordion-collapse collapse show" aria-labelledby="learningHeading" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p><i class="fas fa-check-square"></i> Design object-oriented models of a system.</p>
+              <p><i class="fas fa-check-square"></i> Develop object-oriented software using the Python programming languages.</p>
+              <hr>
+              <p class="lead">Research topics</p>
+              <p><i class="fas fa-check"></i> Explore object-oriented principles and concepts in Python.</p>
+              <p><i class="fas fa-check"></i> Investigate inheritance, composition and polymorphism in Python.</p>
+              <p><i class="fas fa-check"></i> Discuss the key challenges involved in developing using an object-oriented approach.</p>
             </div>
-            <div class="text-start col-md-8 mx-auto">
-              <p></p>
-              <p><i class="fas fa-check"></i> Appraise and evaluate critically the concepts and principles of information systems</p>
-              <p><i class="fas fa-check"></i> Design or modify and document an object-oriented information system using appropriate tools</p>
-              <p><i class="fas fa-check"></i> Develop an object-oriented information system design, implementing this knowledge in applicable programming languages, such as Python and SQL</p>
-              <p><i class="fas fa-check"></i> Develop, implement and evaluate critically information system solutions to facilitate business decisions</p>
-            </div>
-            <div class="row subtitle2" id="artefacs">
-              <p class="lead">Artefacts</p>
-            </div>
-            <p></p>
-            <p>In construction...</p>
-            <div class="row subtitle2" id="notes">
-              <p class="lead">Meeting notes</p>
-            </div>
-            <p>In construction...</p>
-            <div class="row subtitle2" id="reflections">
-              <p class="lead">Reflections</p>
-            </div>
-            <p>In construction...</p>
           </div>
         </div>
-      </section> 
 
+        <!-- Learning activities -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="contentHeading">
+            <button class="accordion-button collapsed subtitle2 btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#content" aria-expanded="true" aria-controls="learning">
+                <p class="lead">Content / Learning activities / Artefacs</p>
+            </button>
+          </h2>
+          <div id="content" class="accordion-collapse collapse" aria-labelledby="contentHeading" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p class="lead">Basic principles of Object-Oriented Design</p>
+              <p>The basic principles of Object-Oriented design are abstraction, encapsulation, inheritance and polymorphism. Their goal is to build an information system based upon the objects, its properties and behaviours. </p>
+              <i class="fas fa-book-open"></i><a href="#" data-bs-toggle="modal" data-bs-target="#principlesModal">Read more...</a>
+              <hr>              
+              <p class="lead">Python: Classes and Objects</p>
+              <i class="fas fa-code"></i><a href="#" data-bs-toggle="modal" data-bs-target="#codio1Modal">Class instance example</a>
+              <i class="fab fa-github"></i><a href="https://github.com/SerZav/EssexCodio/blob/main/classInstance.py">Watch on GitHub</a>
+              <hr>
+              <p class="lead">Python: Class functions and Class Methods</p>
+              <i class="fas fa-code"></i><a href="#" data-bs-toggle="modal" data-bs-target="#codio2Modal">Class methods example</a>
+              <i class="fab fa-github"></i><a href="https://github.com/SerZav/EssexCodio/blob/main/instanceMethods.py">Watch on GitHub</a>
+              <p></p>
+              <i class="fas fa-code"></i><a href="#" data-bs-toggle="modal" data-bs-target="#codio3Modal">Challenge one</a>
+              <i class="fab fa-github"></i><a href="https://github.com/SerZav/EssexCodio/blob/main/challengeOne.py">Watch on GitHub</a>
+              <hr>
+              <p class="lead">Python: Inheritance</p>
+              <i class="fas fa-code"></i><a href="#" data-bs-toggle="modal" data-bs-target="#codio4Modal">Inheritance example</a>
+              <i class="fab fa-github"></i><a href="https://github.com/SerZav/EssexCodio/blob/main/Inheritance.py">Watch on GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- REFLECTIONS -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="reflectionsHeading">
+            <button class="accordion-button collapsed subtitle2 btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#reflections" aria-expanded="true" aria-controls="learning">
+                <p class="lead">Reflections</p>
+            </button>
+          </h2>
+          <div id="reflections" class="accordion-collapse collapse" aria-labelledby="reflectionsHeading" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>Python is a very versatile language, easy to read and to implement in many daily tasks. In this module we used Codio as a tool to learn and test scripts in Python. It resulted a convenient way follow basic concepts and record our progress. As a negative aspect, there are no exercises to implement efficient algorithms to work on some concepts seen in the previous module. It could be added as a bonus since it could be complex for people with less time or who do not come from a programming background.</p>
+              <p>The implementation of object-oriented concepts is very straightforward with Python. Several options to debug and test Python code makes it an excellent option both for beginners and professionals. At this point of the module, I feel stronger about inheritance thanks to python implementation, but I need to work more on abstract classes and interfaces since it might be different from other languages like C# or Java.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- MEETING NOTES -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="notesHeading">
+            <button class="accordion-button collapsed subtitle2 btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#notes" aria-expanded="true" aria-controls="learning">
+                <p class="lead">Meeting notes</p>
+            </button>
+          </h2>
+          <div id="notes" class="accordion-collapse collapse" aria-labelledby="notesHeading" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p></p>
+              <i class="fas fa-ban fa-2x"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- REQUIRED READING -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="readingHeading">
+            <button class="accordion-button collapsed subtitle2 btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#reading" aria-expanded="true" aria-controls="learning">
+                <p class="lead">Required reading</p>
+            </button>
+          </h2>
+          <div id="reading" class="accordion-collapse collapse" aria-labelledby="readingHeading" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p></p>
+              <p><i class="fas fa-book"></i>Philips, D. (2018) Python 3 Object-Oriented programming. 3rd ed. Packt Publishing.</p>
+              <p>Chapters 2 & 3.</p>
+              <hr>
+              <p class="lead">Additional Reading</p>
+              <p><i class="fas fa-book"></i>Hall, T. (2009) Python 3 for absolute beginners. New York: Apress.</p>
+              <p>Chapter 9</p>
+              <p><i class="fas fa-book"></i>RealPython (n.d.) Object-Oriented Programming with Python.</p>
+
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+      <!-- Codio 1 modal-->
+      <div class="modal fade" id="codio1Modal"  data-bs-keyboard="false" tabindex="-1" aria-labelledby="codio1Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="codio1Label">Class instance</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p class="lead">This excercise ilustrates a basic class creation and instantiation. <p/>
+              <hr>
+              <img class="img-fluid" src="assets/img/oois/unit4/class_instances.JPG"></img>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Codio 2 modal-->
+      <div class="modal fade" id="codio2Modal"  data-bs-keyboard="false" tabindex="-1" aria-labelledby="codio2Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="codio2Label">Class methods</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p class="lead">This exercise demonstrate how methods work inside a class by defining a class with a constructor that takes parameters and initialize its attributes. A method can then use the attributes after it is instanced to calculate the BMI of a person.<p/>
+              <hr>
+              <img class="img-fluid" src="assets/img/oois/unit4/class_methods.JPG"></img>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Codio 3 modal-->
+      <div class="modal fade" id="codio3Modal"  data-bs-keyboard="false" tabindex="-1" aria-labelledby="codio3Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="codio3Label">Class methods</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p class="lead">This challenge defines a Class with several methods that can be used after instanced. It ilustrate how methods can be called inside other methods to increase functionality.<p/>
+              <hr>
+              <img class="img-fluid" src="assets/img/oois/unit4/challenge_one.JPG"></img>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>            
+
+      <!-- Codio 4 modal-->
+      <div class="modal fade" id="codio4Modal"  data-bs-keyboard="false" tabindex="-1" aria-labelledby="codio4Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="codio4Label">Class methods</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p class="lead">This example shows how a class can inherit attributes and methods from another class.<p/>
+              <hr>
+              <img class="img-fluid" src="assets/img/oois/unit4/inheritance.JPG"></img>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>            
+
+      <!-- Supermarket artefact modal-->
+      <div class="modal fade" id="supermarketModal"  data-bs-keyboard="false" tabindex="-1" aria-labelledby="supermarketLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="supermarketLabel">Supermarket model</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img class="img-fluid" src="assets/img/oois/unit3/supermarket.jpg"></img>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
     </main>
 
-    <footer class="text-muted py-5">
+    <!-- <footer class="text-muted py-5">
       <div class="container">
         <p class="float-end mb-1">
           <a href="#"><i class="fas fa-arrow-circle-up"></i>Back to top</a>
         </p>
       </div>
-    </footer>
+    </footer> -->
 
     <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/dist/js/aos.js"></script>
     <script>
       AOS.init();
     </script>
-  
+
   </body>
 </html>

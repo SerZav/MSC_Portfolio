@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <title>OOIS Unit 6 / e-Portfolio / MSc Computer Science</title>
+    <title>OOIS Unit 6/ e-Portfolio / MSc Computer Science</title>
     
     <!-- Bootstrap core CSS -->
     <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -23,12 +23,12 @@
             <div class="row" >
               <div class="col-sm-8 col-md-7 py-4">
                 <h4 class="text-white">About me</h4>
-                <p class="text-muted">Still under construction.</p>
+                <p class="text-muted">More than 10 years of Programming experience, working with several languages including C#, Visual Foxpro,Visual Basic and some knowledge in Python and C; experience with MS SQL and Oracle. Experience inmultiplatform, multi language projects, during all the software development process, using agile methodologies.Database administration skills. Web design knowledge including HTML, CSS and Javascript.</p>
               </div>
               <div class="col-sm-4 offset-md-1 py-4">
                 <h4 class="text-white">Contact</h4>
                 <ul class="list-unstyled">
-                  <li><a href="#" class="text-white"><i class="fas fa-paper-plane"></i>Email me</a></li>
+                  <li><a href="http://linkedin.com/in/sergio-zavarce-43538753" class="text-white"><i class="fab fa-linkedin fa-2x"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -54,72 +54,139 @@
         <div class="row subtitleCompact" data-aos="fade-up" data-aos-duration="3000">
           <p class="lead">Object-oriented Information Systems</p>
           <div>
-            <p class="lead"><i class="fas fa-book-open"></i> UNIT 6
-              <!-- <i class="fas fa-angle-double-right"></i><a href="#" class="goTo">Learning outcomes</a>
-              <i class="fas fa-angle-double-right"></i><a href="#artefacs">artefacs</a> -->
-              <a href="#" class="goTo">Learning outcomes</a>
-              <a href="#artefacs" class="goTo">Artefacs</a>
-              <a href="#notes" class="goTo">Meeting notes</a>
-              <a href="#reflections" class="goTo">Reflections</a>
-            </p>
+            <p class="lead"><i class="fas fa-book-open"></i> UNIT 6 - Hands-on with UML</p>
           </div>
         </div>        
       </nav>
     </header>
 
     <main>
-      <section class="py-8 text-center navspaceInContent">
-        <div class="row py-lg-7">
-          <div class="col-lg-12 col-md-8 mx-auto ">
-            <!-- <img class="img-fluid"  src="assets/img/cover.jpg" alt="Cover"> -->
-    
-            <!-- <h1 class="fw-normal title" >My e-Portfolio</h1> -->
-            <!-- <div class="row subtitle" data-aos="fade-up" data-aos-duration="3000">
-              <p class="lead">Object-oriented Information Systems</p>
-              <p class="lead"><i class="fas fa-book-open"></i> UNIT 1</p>
-            </div> -->
-            <div class="row subtitle2">
+      <div class="accordion text-center navspaceInContent" id="accordionExample">
+        <!-- LEARNING OUTCOMES -->
+        <div class="accordion-item">
+          <h2 class="accordion-header " id="learningHeading">
+            <button class="accordion-button subtitle2 btn-primary " type="button" data-bs-toggle="collapse" data-bs-target="#learning" aria-expanded="true" aria-controls="learning">
               <p class="lead">Learning outcomes</p>
+            </button>
+          </h2>
+          <div id="learning" class="accordion-collapse collapse show" aria-labelledby="learningHeading" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p><i class="fas fa-check-square"></i> Identify the potential classes in a system brief.</p>
+              <p><i class="fas fa-check-square"></i> Develop a set of UML documentation for a specific scenario.</p>
+              <hr>
+              <p class="lead">Research topics</p>
+              <p><i class="fas fa-check"></i> Investigate the methods for identifying classes within a system.</p>
+              <p><i class="fas fa-check"></i> Investigate inheritance, composition and polymorphism in Python.</p>
+              <p><i class="fas fa-check"></i> Discuss the key challenges involved in developing using an object-oriented approach.</p>
             </div>
-            <div class="text-start col-md-8 mx-auto">
-              <p></p>
-              <p><i class="fas fa-check"></i> Appraise and evaluate critically the concepts and principles of information systems</p>
-              <p><i class="fas fa-check"></i> Design or modify and document an object-oriented information system using appropriate tools</p>
-              <p><i class="fas fa-check"></i> Develop an object-oriented information system design, implementing this knowledge in applicable programming languages, such as Python and SQL</p>
-              <p><i class="fas fa-check"></i> Develop, implement and evaluate critically information system solutions to facilitate business decisions</p>
-            </div>
-            <div class="row subtitle2" id="artefacs">
-              <p class="lead">Artefacts</p>
-            </div>
-            <p></p>
-            <p>In construction...</p>
-            <div class="row subtitle2" id="notes">
-              <p class="lead">Meeting notes</p>
-            </div>
-            <p>In construction...</p>
-            <div class="row subtitle2" id="reflections">
-              <p class="lead">Reflections</p>
-            </div>
-            <p>In construction...</p>
           </div>
         </div>
-      </section> 
 
+        <!-- Learning activities -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="contentHeading">
+            <button class="accordion-button collapsed subtitle2 btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#content" aria-expanded="true" aria-controls="learning">
+                <p class="lead">Content / Learning activities / Artefacs</p>
+            </button>
+          </h2>
+          <div id="content" class="accordion-collapse collapse" aria-labelledby="contentHeading" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p class="lead">Basic principles of Object-Oriented Design</p>
+              <p>The basic principles of Object-Oriented design are abstraction, encapsulation, inheritance and polymorphism. Their goal is to build an information system based upon the objects, its properties and behaviours. </p>
+              <i class="fas fa-book-open"></i><a href="#" data-bs-toggle="modal" data-bs-target="#principlesModal">Read more...</a>
+              <hr>              
+            </div>
+          </div>
+        </div>
+
+        <!-- REFLECTIONS -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="reflectionsHeading">
+            <button class="accordion-button collapsed subtitle2 btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#reflections" aria-expanded="true" aria-controls="learning">
+                <p class="lead">Reflections</p>
+            </button>
+          </h2>
+          <div id="reflections" class="accordion-collapse collapse" aria-labelledby="reflectionsHeading" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+            </div>
+          </div>
+        </div>
+
+        <!-- MEETING NOTES -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="notesHeading">
+            <button class="accordion-button collapsed subtitle2 btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#notes" aria-expanded="true" aria-controls="learning">
+                <p class="lead">Meeting notes</p>
+            </button>
+          </h2>
+          <div id="notes" class="accordion-collapse collapse" aria-labelledby="notesHeading" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p></p>
+              <i class="fas fa-ban fa-2x"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- REQUIRED READING -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="readingHeading">
+            <button class="accordion-button collapsed subtitle2 btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#reading" aria-expanded="true" aria-controls="learning">
+                <p class="lead">Required reading</p>
+            </button>
+          </h2>
+          <div id="reading" class="accordion-collapse collapse" aria-labelledby="readingHeading" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p></p>
+              <p><i class="fas fa-book"></i>Ambler, S. (2003) Elements of UML Style. Cambridge: Cambridge University Press.</p>
+              <p>Chapters 4, 6, 8 & 9.</p>
+              <p><i class="fas fa-video"></i>Lucidchart (n.d.) UML Class Diagram Tutorial.</p>
+              <p><i class="fas fa-book"></i>Banas, D. (2012) UML 2.0 Tutorial.</p>
+              <hr>
+              <p class="lead">Additional Reading</p>
+              <p><i class="fas fa-book"></i>Bruegge, B. (2014) Object-oriented software engineering : using UML, patterns, and Java. Harlow: Pearson.</p>
+              <p>Chapter 2.</p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+      <!-- Codio 1 modal-->
+      <div class="modal fade" id="codio1Modal"  data-bs-keyboard="false" tabindex="-1" aria-labelledby="codio1Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="codio1Label">Class instance</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p class="lead">This excercise ilustrates a basic class creation and instantiation. <p/>
+              <hr>
+              <img class="img-fluid" src="assets/img/oois/unit4/class_instances.JPG"></img>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
     </main>
 
-    <footer class="text-muted py-5">
+    <!-- <footer class="text-muted py-5">
       <div class="container">
         <p class="float-end mb-1">
           <a href="#"><i class="fas fa-arrow-circle-up"></i>Back to top</a>
         </p>
       </div>
-    </footer>
+    </footer> -->
 
     <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/dist/js/aos.js"></script>
     <script>
       AOS.init();
     </script>
-  
+
   </body>
 </html>
