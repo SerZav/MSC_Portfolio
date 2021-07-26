@@ -71,13 +71,15 @@
           </h2>
           <div id="learning" class="accordion-collapse collapse show" aria-labelledby="learningHeading" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              <p><i class="fas fa-check-square"></i> Implement a table structure based on a specification.</p>
-              <p><i class="fas fa-check-square"></i> Perform simple queries in order to extract information.</p>
-              <p><i class="fas fa-check-square"></i> Develop queries requiring multiple tables using either subqueries or joins.</p>
+              <p><i class="fas fa-check-square"></i> Implement a simple web server.</p>
+              <p><i class="fas fa-check-square"></i> Create dynamic templates using Jinja.</p>
+              <p><i class="fas fa-check-square"></i> Connect a database to a Flask application.</p>
+              <p><i class="fas fa-check-square"></i> Understand some of the security considerations around web applications.</p>
               <hr>
               <p class="lead">Research topics</p>
-              <p><i class="fas fa-check"></i> Implement a database design.</p>
-              <p><i class="fas fa-check"></i> Understand how to design appropriate queries.</p>
+              <p><i class="fas fa-check"></i> Introduce the concept of a Model-View-Controller.</p>
+              <p><i class="fas fa-check"></i> Discuss the key elements of a web application.</p>
+              <p><i class="fas fa-check"></i> Discuss some of the security considerations of a web development.</p>
             </div>
           </div>
         </div>
@@ -91,24 +93,9 @@
           </h2>
           <div id="content" class="accordion-collapse collapse" aria-labelledby="contentHeading" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              <p class="lead">SQL</p>
               <!-- <p>The basic principles of Object-Oriented design are abstraction, encapsulation, inheritance and polymorphism. Their goal is to build an information system based upon the objects, its properties and behaviours. </p> -->
-              <p class="lead">Advanced SQL</p>
+              <p class="lead">Model View Controller</p>
 
-              <!-- <i class="fas fa-code"></i><a href="https://docs.google.com/document/d/1Hs1oqO2eMcmu5b-kbim-8ecxnuHDdodmlFgy8o-ETcs/edit?usp=sharing">SQL Exercises 1</a> -->
-              <i class="fab fa-github"></i><a href="https://github.com/SerZav/EssexSQL/blob/master/Exercise1.sql">SQL Exercises 1</a>
-              <p></p>
-              <!-- <i class="fas fa-code"></i><a href="https://docs.google.com/document/d/1Hs1oqO2eMcmu5b-kbim-8ecxnuHDdodmlFgy8o-ETcs/edit?usp=sharing">SQL Exercises 2</a> -->
-              <i class="fab fa-github"></i><a href="https://github.com/SerZav/EssexSQL/blob/master/Exercise2.sql">SQL Exercises 2</a>
-              <hr>
-              <p class="lead">Collaborative Discussion 2: Alternatives to SQL</p>
-              <p></p>
-              <p>In this unit we gathered enough information to evaluate and summarize the main considerations when designing an information system to avoid the most common failures.</p>
-              <i class="fas fa-comment"></i><a href="#" data-bs-toggle="modal" data-bs-target="#initialPostModal">Initial Post</a>
-              <p></p>
-              <i class="fas fa-comment"></i><a href="#" data-bs-toggle="modal" data-bs-target="#pr1Modal">Peer Response #1</a>
-              <p></p>
-              <i class="fas fa-comment"></i><a href="#" data-bs-toggle="modal" data-bs-target="#pr2Modal">Peer Response #2</a>
               <p></p>
               <i class="fas fa-comment"></i><a href="#" data-bs-toggle="modal" data-bs-target="#summaryPostModal">Summary Post</a>
 
@@ -126,23 +113,8 @@
           <div id="reflections" class="accordion-collapse collapse" aria-labelledby="reflectionsHeading" data-bs-parent="#accordionExample">
             <div class="accordion-body">
               <p></p>
-              <p>In this module, we had the opportunity to discuss the advantages of using SQL databases and when to use NoSQL technologies, while getting to know our peers’ opinions and experiences in this subject. I enjoyed researching and reading about the development of these technologies.</p>
-              <p>The SQL exercises were informative enough to get a clear understanding of the basic manipulation of data with MySql. The interface is clear and easy to follow and the exercises are very helpful. I must practice more on table creation and constraints since it is hard to remember the syntax and I found it challenging. It is also very important to maintain good practices such as using descriptive names for columns or ordering results. It is something I will remember in my daily task while working with SQL.</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- MEETING NOTES -->
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="notesHeading">
-            <button class="accordion-button collapsed subtitle2 btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#notes" aria-expanded="true" aria-controls="learning">
-                <p class="lead">Meeting notes</p>
-            </button>
-          </h2>
-          <div id="notes" class="accordion-collapse collapse" aria-labelledby="notesHeading" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <p></p>
-              <i class="fas fa-ban fa-2x"></i>
+              <p>It was very interesting and exciting to run a web server using Flask. I used the flask tutorial but then I tried to do the same exercises in my local machine and connecting to a SqlLite database. The results were the same and probably more instructive. I think it is great to have Codio and the flask tutorial to guide you, but the Flask Mega tutorial is even better to encourage students to try these exercises in an external environment as well. Once you have done that on the Codio environment, it is easier to do it in Windows or Linux (even mac). There were a couple of problems with the Flask tutorial such as a typo in the query, but it was easy to spot it. Other peers commented on different problems, but by the time I finished the Flask tutorial, most things were working properly.</p>
+              <p>Overall, I enjoyed this unit and I will keep working on web development with python and flask, while trying to connect to other databases, maybe even NoSQL!</p>
             </div>
           </div>
         </div>
@@ -157,8 +129,12 @@
           <div id="reading" class="accordion-collapse collapse" aria-labelledby="readingHeading" data-bs-parent="#accordionExample">
             <div class="accordion-body">
               <p></p>
-              <p><i class="fas fa-book"></i>Connolly, T. & Beg, C. (2015) Database Systems: A Practical Approach to Design, Implementation, and Management. Global Edition. Edinburgh: Pearson.</p>
-              <p>Chapters 6, 7 & 8.</p>
+              <p><i class="fas fa-book"></i>Ginberg, M. (2017) The Flask Mega Tutorial.</p>
+              <p><i class="fas fa-book"></i>Pallets Projects (2010) Flask Tutorial.</p>
+              <hr>
+              <p class="lead">Additional Reading</p>
+              <p><i class="fas fa-book"></i>RealPython (n.d.) Flask Tutorials.</p>
+              <p><i class="fas fa-book"></i>who.is DNS XSS exploit.</p>
             </div>
           </div>
         </div>
