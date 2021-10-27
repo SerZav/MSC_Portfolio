@@ -105,6 +105,14 @@
               <p></p>
               <i class="fas fa-comment"></i><a href="#" data-bs-toggle="modal" data-bs-target="#pr2Modal">Peer Response #2</a>
               <p></p>
+              <p class="lead">Team activity</p>
+              <p></p>
+              <p>We used a 3 level DREAD rating to assess the health mannequin case. </p>
+              <i class="fas fa-comment"></i><a href="#" data-bs-toggle="modal" data-bs-target="#dreadModal">DREAD Threat Modelling</a>
+              <p></p>
+              <i class="fas fa-comment"></i><a href="#" data-bs-toggle="modal" data-bs-target="#identifiedModal">Identified Threats (Healthcare):</a>
+              <p></p>
+
               <!-- 
               <i class="fas fa-comment"></i><a href="#" data-bs-toggle="modal" data-bs-target="#summaryPostModal">Summary Post</a>
               <hr>
@@ -129,8 +137,8 @@
           <div id="reflections" class="accordion-collapse collapse" aria-labelledby="reflectionsHeading" data-bs-parent="#accordionExample">
             <div class="accordion-body">
               <p></p>
-              <!-- <p>In this unit we had the opportunity to research and discuss about the basics of designing under the object-oriented principles. It is critical to apply this knowledge from the beginning of every project to avoid potential problems. A good design is always more straightforward to discuss, modify and maintain. I found the Lucid Chart tool extremely valuable and powerful. Companies such as Amazon use these tools in a regular basis to support their teams.</p>
-              <p>At first glance, many of the concepts of composition vs aggregation appear confusing. We hold interesting discussions about how to enhance the design in the practical activity, where it was evident that there is a thin line between these concepts and require more practice and research in the upcoming modules. This was very positive to the group, helping us to see our blunders and to get a more reliable understanding of the reasoning process of others.</p> -->
+              <p>I found threat modelling tools invaluable resources for security departments and development teams. I have been part of projects where security is taken very lightly, and I feel that it is my responsibility now to create awareness of the tools that a project can take advantage of to minimize risks. Projects that handle private data should go a step further in protecting their networks and information systems for compliance with data protection regulations.</p>
+              <p>The team activity represented a refreshing opportunity to discuss many aspects related to security and share personal experiences. For example, I learned interesting aspects of how other companies handle security and enforce anti-phishing campaigns by sending fake emails to their employees to keep them alert.</p>
             </div>
           </div>
         </div>
@@ -232,11 +240,11 @@
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              <p class="lead">Kikelomo brought to our attention an interesting case of failure during the 2004 Irish elections, where the Irish government tried to replace the manual voting system by an electronic one. The system turned out to be flawed and had to be discarded just 5 days prior to the elections.<p/>
+              <p class="lead">Kieron made a solid point about healthcare security and its implications, and proposed some mitigation actions.<p/>
               <hr>
-              <p class="fst-italic">"Hi Kikelomo,</p>
-              <p class="fst-italic">It seems that this example showcases a complete failure of several components of an information system. The hardware component along with network and communications components were not planned accordingly to such an important task. The software component also failed, making it impossible to print out vote results. </p>              
-              <p class="fst-italic">It could be argued that the other components of the information system also failed. For example, the people component comprises all those involved in the process, from the testers to the officers who validated the system despite criticism and problems. The data and process components did not deliver the required results for the information system. All the components work together, and it might be considered that only the software failed, but in the end, it is a whole system where every component plays its part to make it work successfully."</p>
+              <p class="fst-italic">"Peer response:</p>
+              <p class="fst-italic">I enjoyed your post very much since there are interesting facts about healthcare security. I agree with your measures to mitigate these attacks, especially when you talk about updating the firmware of the internal devices. This risk to brute force attacks was warned by the Cybersecurity and Infrastructure Security Agency back in 2012. The stated that a WPS vulnerability could be used by an attacker to get the router's password (Cybersecurity & Infrastructure Security Agency, 2012).</p>              
+              <p class="fst-italic">Additionally, I think that improving staff training in cybersecurity would beneficiate hospitals implementing these devices securely. It is an opportunity to keep the hospital safe and could help detecting vulnerabilities that the manufacturer could have missed in early stages of development. It is still the responsibility of the mannequin provider to test it against every possible intrusion, using penetration testing and ethical hacking techniques. This issue will become more and more evident as Smart devices and AI applications are scattered through the health ecosystem (Perumal et al., 2021)."</p>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -295,16 +303,16 @@
         </div>
       </div>
 
-      <!-- Supermarket artefact modal-->
-      <div class="modal fade" id="supermarketModal"  data-bs-keyboard="false" tabindex="-1" aria-labelledby="supermarketLabel" aria-hidden="true">
+      <!-- dread modal-->
+      <div class="modal fade" id="dreadModal"  data-bs-keyboard="false" tabindex="-1" aria-labelledby="dreadLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="supermarketLabel">Supermarket model</h5>
+              <h5 class="modal-title" id="dreadLabel">Dread threat modelling</h5>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              <img class="img-fluid" src="../assets/img/nism/unit3/supermarket.jpg"></img>
+              <img class="img-fluid" src="../assets/img/nism/unit2/dread.png"></img>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -312,6 +320,24 @@
           </div>
         </div>
       </div>
+
+      <!-- identified threats modal-->
+      <div class="modal fade" id="identifiedModal"  data-bs-keyboard="false" tabindex="-1" aria-labelledby="dreadLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="dreadLabel">Identified Threats (Healthcare):</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img class="img-fluid" src="../assets/img/nism/unit2/id_threats.png"></img>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>      
 
 
       
