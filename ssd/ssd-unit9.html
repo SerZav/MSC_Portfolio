@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <title>SSD Unit 8 / e-Portfolio / MSc Computer Science</title>
+    <title>SSD Unit 9 / e-Portfolio / MSc Computer Science</title>
     
     <!-- Bootstrap core CSS -->
     <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -48,13 +48,13 @@
             <ul class="breadcrumb">
               <li ><a href="../index.html"><i class="fas fa-home"></i> Home</a></li>
               <li ><a href="ssd.html">Secure Software Development</a></li>
-              <li >Unit 8</li>
+              <li >Unit 9</li>
             </ul>
         </div>
         <div class="row subtitleCompact" data-aos="fade-up" data-aos-duration="3000">
           <p class="lead">Secure Software Development</p>
           <div>
-            <p class="lead"><i class="fas fa-book-open"></i> UNIT 8 - Cryptography and Its Use in Operating Systems</p>
+            <p class="lead"><i class="fas fa-book-open"></i> UNIT 9 - Developing an API for a Distributed Environment</p>
           </div>
         </div>        
       </nav>
@@ -77,10 +77,14 @@
               <p>In this unit we studied the TrueCrypt cryptanalysis by Junestam & Guigo (2014). The TrueCrypt authors claimed that their software was not secure because it could have some vulnerabilities. We have discussed with our peers if the cryptanalysis proves or disproves this assumption. We also commented on whether we would recommend this software to a friend as a secure storage protection.</p>
               <i class="fas fa-comment"></i><a href="#" data-bs-toggle="modal" data-bs-target="#initialPostModal">Initial Post</a>
               <p></p>
-              <!-- <i class="fas fa-comment"></i><a href="#" data-bs-toggle="modal" data-bs-target="#pr1Modal">Peer Response #1</a>
+              <i class="fas fa-comment"></i><a href="#" data-bs-toggle="modal" data-bs-target="#pr1Modal">Peer Response #1</a>
               <p></p>
-              <i class="fas fa-comment"></i><a href="#" data-bs-toggle="modal" data-bs-target="#pr2Modal">Peer Response #2</a> -->
+              <i class="fas fa-comment"></i><a href="#" data-bs-toggle="modal" data-bs-target="#pr2Modal">Peer Response #2</a>
               <hr>
+              <p class="lead">Developing an API for a Distributed Environment.</p>
+              <i class="fas fa-comment"></i><a href="#" data-bs-toggle="modal" data-bs-target="#apiModal">Read more</a>
+              <p></p>
+              <p></p>
             </div>
           </div>
         </div>
@@ -109,19 +113,18 @@
           </h2>
           <div id="learning" class="accordion-collapse collapse" aria-labelledby="learningHeading" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              <p><i class="fas fa-check-square"></i> Describe some of the issues encountered with cryptographic libraries.</p>
-              <p><i class="fas fa-check-square"></i> Explain the pros and cons of using common cryptographic libraries.</p>
-              <p><i class="fas fa-check-square"></i> Demonstrate the use of cryptographic libraries in a simple application.</p>
+              <p><i class="fas fa-check-square"></i> Create an API and use it to create and read records.</p>
+              <p><i class="fas fa-check-square"></i> Become familiar with the capabilities of Python’s flask library.</p>
+              <p><i class="fas fa-check-square"></i> Design an ontology which can be used in standardised service deployments.</p>
               <hr>
               <p class="lead">Research topics</p>
-              <p><i class="fas fa-check"></i> Look at what is meant by cryptography and examine a case study in how it can be applied to operating systems.</p>
-              <p><i class="fas fa-check"></i> Explore some common cryptographic libraries.</p>
-              <p><i class="fas fa-check"></i> Create a basic application that uses cryptographic libraries to encode sample data.</p>
+              <p><i class="fas fa-check"></i> Investigate the application of CRUD capabilities in Python.</p>
+              <p><i class="fas fa-check"></i> Continue to expand our knowledge on the capabilities of further Python libraries.</p>
+              <p><i class="fas fa-check"></i> Reflect on the utility of an ontology to support a distributed architecture.</p>
             </div>
           </div>
         </div>
 
-        <!-- UNIT READING -->
         <!-- UNIT READING -->
               <!-- Examples
                 fontawesome:
@@ -142,8 +145,13 @@
             <div class="accordion-body">
               <p class="lead">Required Reading</p>
               <hr>
-              <p><i class="fas fa-file-pdf"></i><a href="https://opencryptoaudit.org/reports/iSec_Final_Open_Crypto_Audit_Project_TrueCrypt_Security_Assessment.pdf" target="_blank">Junestam, A. & Guigo, N. (2014) Open Crypto Audit Project Truecrypt Security Assessment.</a></p>
-              <p><i class="fas fa-link"></i><a href="https://www.tutorialspoint.com/cryptography_with_python/cryptography_with_python_quick_guide.htm" target="_blank">TutorialPoint (2020) Cryptography with Python Tutorial.</a></p>
+              <p>Pillai, A.B. (2017) Software Architecture with Python. Birmingham, UK. Packt Publishing Ltd.</p>
+              <ul>
+                <li>Chapter 5</li>
+              </ul>
+              <p>Salah, T., Zemerly, M. J., et al. (2016) The Evolution of Distributed Systems towards Microservices Architectures, in Proc. of the 11th International Conference for Internet Technology and Secured Transactions.</p>
+              <p>Winkfield, L., Hu, Y-H., Hoppa, & M. A. (2018) A Study of the Evolution of Secure Software Development Architectures, Journal of the Colloquium for Information System Security Education.</p>
+
             </div>
           </div>
         </div>
@@ -181,6 +189,121 @@
         </div>
       </div>
 
+      <!-- Forum post modal-->
+      <div class="modal fade" id="pr1Modal"  data-bs-keyboard="false" tabindex="-1" aria-labelledby="pr1ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="pr1ModalLabel">Summary Post</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>I enjoyed your very detailed and interesting post. Focusing on the weaknesses that you have pointed out, do you think it is safe to say that after the auditing of the software, TrueCrypt would be safe to use after a small patch? Many of the open-source follow-ups to TrueCrypt such as VeraCrypt, had the same vulnerabilities but they corrected them. Also, in 2015, Google’s Project Zero found the first high severity vulnerability in TrueCrypt (Joseph Cox, 30 September 2015), which has a base score of 7.8 in the NIST database (NIST, 2017). It was not clear if this critical bug was also an unintentional error or a deliberate backdoor to the software, and probably one of the reasons behind the sudden TrueCrypt closure.</p>
+              <p>There are several important measures to prevent the risks you have emphasised when it comes to software development. One of the most important would be to carefully check the OWASP vulnerability list, to avoid common errors related to memory, buffers, leaks, and many other risks especially associated with languages such as C. Design patterns are also a must in a project planned to be maintainable, readable and open to modifications. As an open-source project, the lack of more robust management could lead to some design flaws that could eventually make the project hard to sustain.</p>
+              <p></p>
+              <hr>              
+              <h4>References:</h4>
+              <p>Cox, J. (September 30, 2015) Encryption Program TrueCrypt Has a Critical Vulnerability. Vice. Available from: https://www.vice.com/en/article/3dkxky/encryption-program-truecrypt-has-a-critical-vulnerability [Accessed 15 October 2021]</p>
+              <p>NIST (2017). CVE-2015-7358 Detail. Available from: https://nvd.nist.gov/vuln/detail/CVE-2015-7358 [Accessed 15 October 2021]</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Forum post modal-->
+      <div class="modal fade" id="pr2Modal"  data-bs-keyboard="false" tabindex="-1" aria-labelledby="pr2ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="pr2ModalLabel">Summary Post</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>I have enjoyed your insights about the TrueCrypt case. I would only add that in 2015, Google’s Project Zero found the first high severity vulnerability in TrueCrypt (Joseph Cox, 30 September 2015), which has a base score of 7.8 in the NIST database. Although no vulnerabilities have been found that could affect the encryption of data, the most severe risk is the possibility to take control of the computer giving the attacker permission to elevate his privileges (NIST, 2017).</p>
+              <p>According to the inconsistencies and incidents you have detailed, there are several design aspects that should have been considered. The OWASP vulnerability list is a good starting point that needs to be reviewed, specially when a language like C is used where many buffer or memory errors can compromise the whole system. Several of the vulnerabilities found during the audit project are related to memory dumps where data can be extracted from the disk.</p>
+              <p>Other recommendations include the use of design patterns and implementation of SOLID principles to ensure that code remains open to extensions, maintainable, and readable. As the audit team suggested, the use of comments would highly increase the readability. Modules in this type of project should be decoupled so that any team involved in the project can easily continue with updates and maintenance without risking other modules.</p>
+              <p></p>
+              <hr>              
+              <h4>References:</h4>
+              <p>Cox, J. (September 30, 2015) Encryption Program TrueCrypt Has a Critical Vulnerability. Vice. Available from: https://www.vice.com/en/article/3dkxky/encryption-program-truecrypt-has-a-critical-vulnerability [Accessed 15 October 2021]</p>
+              <p>NIST (2017). CVE-2015-7358 Detail. Available from: https://nvd.nist.gov/vuln/detail/CVE-2015-7358 [Accessed 15 October 2021]</p>
+              <p>Junestam, A. & Guigo, N. (2014) Open Crypto Audit Project Truecrypt Security Assessment. Available from:  https://opencryptoaudit.org/reports/iSec_Final_Open_Crypto_Audit_Project_TrueCrypt_Security_Assessment.pdf [Accessed 15 October 2021]</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="apiModal"  data-bs-keyboard="false" tabindex="-1" aria-labelledby="pr2ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="pr2ModalLabel">Summary Post</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            C:\Repos\Essex\MSC_Portfolio\assets\img\ssd\unit9
+            <div class="modal-body">
+              <h5>TASK 1:</h5>
+              <p class="fw-bold">Run the API.py code. Take a screenshot of the terminal output. What command did you use to compile and run the code?</p>
+              <p>When ran the first time, this was the result:</p>
+              <img class="img-fluid" src="../assets/img/ssd/unit9/test1.jpg"></img>
+              <p>It was missing the Flask module. I tried to install it with pip, but it was missing:</p>
+              <img class="img-fluid" src="../assets/img/ssd/unit9/test2.jpg"></img>
+              <p>I installed the required packages and installed pip.</p>
+              <p>The next step was to install Flask, then the flask_restful and I finally could run the file. This was the result:</p>
+              <img class="img-fluid" src="../assets/img/ssd/unit9/test3.jpg"></img>
+              <hr>
+              <h5>TASK 2:</h5>
+              <p class="fw-bold">Run the following command at the terminal prompt: </p>
+              <p class="fw-bold">w3m http://127.0.0.1:5000/user/Ann</p>
+              <p class="fw-bold">What happens when this command is run, and why?</p>
+              <p>This is the result of running the command:</p>
+              <img class="img-fluid" src="../assets/img/ssd/unit9/test4.jpg"></img>
+              <p>I changed the name to Sergio:</p>
+              <img class="img-fluid" src="../assets/img/ssd/unit9/test5.jpg"></img>
+              <p>After exploring the content of the file Sergio, this is the result:</p>
+              <img class="img-fluid" src="../assets/img/ssd/unit9/test6.jpg"></img>
+              <hr>
+              <h5>TASK 3:</h5>
+              <p class="fw-bold">Run the following command at the terminal prompt: </p>
+              <p class="fw-bold">w3m http://127.0.0.1:5000/user/Adam</p>
+              <p class="fw-bold">What happens when this command is run, and why?</p>
+              <p>The command called the API and downloaded the information requested of the user Adam.</p>
+              <img class="img-fluid" src="../assets/img/ssd/unit9/test7.jpg"></img>
+              <p> However, since the user does not exist, it returned a message indicating that the user was not found:</p>
+              <img class="img-fluid" src="../assets/img/ssd/unit9/test8.jpg"></img>
+              <hr>
+              <h5>TASK 4:</h5>
+              <p class="fw-bold">What capability is achieved by the flask library?</p>
+              <p>The flask library abstracts the rest functions to build a secure API that complies with REST architecture, an encourages best practices with a minimal setup.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <!-- Image modal -->
       <div class="modal fade" id="supermarketModal"  data-bs-keyboard="false" tabindex="-1" aria-labelledby="supermarketLabel" aria-hidden="true">

@@ -28,7 +28,7 @@
               <div class="col-sm-4 offset-md-1 py-4">
                 <h4 class="text-white">Contact</h4>
                 <ul class="list-unstyled">
-                  <li><a href="http://linkedin.com/in/sergio-zavarce-43538753" class="text-white"><i class="fab fa-linkedin fa-2x"></i></a></li>
+                  <li><a href="http://linkedin.com/in/sergio-zavarce-43538753" target="_blank" class="text-white"><i class="fab fa-linkedin fa-2x"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -62,23 +62,6 @@
 
     <main>
       <div class="accordion text-center navspaceInContent" id="accordionExample">
-        <!-- LEARNING OUTCOMES -->
-        <div class="accordion-item">
-          <h2 class="accordion-header " id="learningHeading">
-            <button class="accordion-button subtitle2 btn-primary " type="button" data-bs-toggle="collapse" data-bs-target="#learning" aria-expanded="true" aria-controls="learning">
-              <p class="lead">Learning outcomes</p>
-            </button>
-          </h2>
-          <div id="learning" class="accordion-collapse collapse show" aria-labelledby="learningHeading" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <p><i class="fas fa-check-square"></i> .</p>
-              <hr>
-              <p class="lead">Research topics</p>
-              <p><i class="fas fa-check"></i> .</p>
-            </div>
-          </div>
-        </div>
-
         <!-- CONTENT -->
         <div class="accordion-item">
           <h2 class="accordion-header" id="contentHeading">
@@ -86,22 +69,13 @@
                 <p class="lead">Content / Learning activities / Artefacs</p>
             </button>
           </h2>
-          <div id="content" class="accordion-collapse collapse" aria-labelledby="contentHeading" data-bs-parent="#accordionExample">
+          <div id="content" class="accordion-collapse collapse show" aria-labelledby="contentHeading" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              <p class="lead">Key concepts</p>
-              <p></p>
-              <i class="fas fa-comment"></i><a href="#" data-bs-toggle="modal" data-bs-target="#summaryPostModal">Ontology</a>
-              <i class="fas fa-comment"></i><a href="#" data-bs-toggle="modal" data-bs-target="#summaryPostModal">SOA</a>
-              <i class="fas fa-comment"></i><a href="#" data-bs-toggle="modal" data-bs-target="#summaryPostModal">Microservices</a>
-              <i class="fas fa-comment"></i><a href="#" data-bs-toggle="modal" data-bs-target="#summaryPostModal">Distributed systems</a>
+
+              <p class="lead">Collaborative Discussion 2: Cryptography case study: TrueCryptDiscussion.</p>
               <hr>
-              <!-- <p class="lead">Basic principles of Object-Oriented Design</p>
-              <p>The basic principles of Object-Oriented design are abstraction, encapsulation, inheritance and polymorphism. Their goal is to build an information system based upon the objects, its properties and behaviours. </p>
-              <i class="fas fa-book-open"></i><a href="#" data-bs-toggle="modal" data-bs-target="#principlesModal">Read more...</a>
-              <hr>              
-              <p class="lead">Collaborative Discussion 1: Information System Failure</p>
               <p></p>
-              <p>In this unit we gathered enough information to evaluate and summarize the main considerations when designing an information system to avoid the most common failures.</p>
+              <p>In this unit we studied the TrueCrypt cryptanalysis by Junestam & Guigo (2014). The TrueCrypt authors claimed that their software was not secure because it could have some vulnerabilities. We have discussed with our peers if the cryptanalysis proves or disproves this assumption. We also commented on whether we would recommend this software to a friend as a secure storage protection.</p>
               <i class="fas fa-comment"></i><a href="#" data-bs-toggle="modal" data-bs-target="#initialPostModal">Initial Post</a>
               <p></p>
               <i class="fas fa-comment"></i><a href="#" data-bs-toggle="modal" data-bs-target="#pr1Modal">Peer Response #1</a>
@@ -110,13 +84,12 @@
               <p></p>
               <i class="fas fa-comment"></i><a href="#" data-bs-toggle="modal" data-bs-target="#summaryPostModal">Summary Post</a>
               <hr>
-              <p class="lead">Practical activity: Creating an object-oriented design</p>
-              <p>This activity helped gaining an initial understanding of object-oriented design principles. </p>
-              <p>The use of different tools such as Draw.io or Lucid Chart are essential to create and modify diagrams to represent the relationship between objects.</p>
-              <p>The task is to create an object model for a supermarket and represent inheritance and composition relationships.</p>
+              <p class="lead">Key concepts</p>
               <p></p>
-              <i class="fas fa-project-diagram"></i><a href="#" data-bs-toggle="modal" data-bs-target="#supermarketModal">Supermarket object model</a> -->
-
+              <p><i class="fas fa-comment"></i><a href="#" data-bs-toggle="modal" data-bs-target="#OntologyModal">Ontology</a></p>
+              <p><i class="fas fa-comment"></i><a href="#" data-bs-toggle="modal" data-bs-target="#SOAModal">SOA</a></p>
+              <p><i class="fas fa-comment"></i><a href="#" data-bs-toggle="modal" data-bs-target="#MicroservicesModal">Microservices</a></p>
+              <p><i class="fas fa-comment"></i><a href="#" data-bs-toggle="modal" data-bs-target="#DistributedModal">Distributed systems</a></p>
             </div>
           </div>
         </div>
@@ -137,6 +110,26 @@
           </div>
         </div>
 
+        <!-- LEARNING OUTCOMES -->
+        <div class="accordion-item">
+          <h2 class="accordion-header " id="learningHeading">
+            <button class="accordion-button subtitle2 btn-primary " type="button" data-bs-toggle="collapse" data-bs-target="#learning" aria-expanded="true" aria-controls="learning">
+              <p class="lead">Learning outcomes</p>
+            </button>
+          </h2>
+          <div id="learning" class="accordion-collapse collapse " aria-labelledby="learningHeading" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p><i class="fas fa-check-square"></i> Describe a variety of distributed systems, and the pattern in which they evolved.</p>
+              <p><i class="fas fa-check-square"></i> .Discuss the security attacks that distributed systems, in particular, are vulnerable to.</p>
+              <p><i class="fas fa-check-square"></i> Understand the ways in which virtual systems need to be protected due to the specific nature of attacks on them.</p>
+              <hr>
+              <p class="lead">Research topics</p>
+              <p><i class="fas fa-check"></i> Explore the evolution of system architectures, from distributed systems to microservices.</p>
+              <p><i class="fas fa-check"></i> Examine the strengths and weaknesses of the variety of approaches to distributed systems.</p>
+              <p><i class="fas fa-check"></i> Define the security attacks which are specific to virtual environments.</p>
+            </div>
+          </div>
+        </div>
 
         <!-- REQUIRED READING -->
         <div class="accordion-item">
@@ -148,33 +141,39 @@
           <div id="reading" class="accordion-collapse collapse" aria-labelledby="readingHeading" data-bs-parent="#accordionExample">
             <div class="accordion-body">
               <p></p>
-              <p><i class="fas fa-file-pdf"></i><a href="https://opencryptoaudit.org/reports/iSec_Final_Open_Crypto_Audit_Project_TrueCrypt_Security_Assessment.pdf" target="_blank">Junestam, A. & Guigo, N. (2014) Open Crypto Audit Project Truecrypt Security Assessment.</a></p>
-              <p><i class="fas fa-link"></i><a href="https://www.tutorialspoint.com/cryptography_with_python/cryptography_with_python_quick_guide.htm" target="_blank">TutorialPoint (2020) Cryptography with Python Tutorial.</a></p>
+              <p class="lead">Required Reading</p>
+              <hr>
+              <p>Arnaut, W., Oliveira, K. & Lima, F. (2010) OWL-SOA: A Service Oriented Architecture Ontology Useful during Development Time and Independent from Implementation Time, IEEE.</p>
+              <p class="lead">Additional Reading</p>
+              <hr>
+              <p>Pillai, A.B. (2017) Software Architecture with Python. Birmingham, UK. Packt Publishing Ltd.</p>
+              <p></p>
+              <ul>
+                <li>Chapter5</li>
+              </ul>
+              <p>Open Group (2016) The SOA Source Book: Service-Oriented Architecture Ontology Version 2.0. Chapter 2: System and Element.</p>
             </div>
           </div>
         </div>
         
       </div>
 
-      <!-- Modal Forum discussion - Initiap Post-->
-      <!-- <div class="modal fade" id="initialPost" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="initialPostLabel" aria-hidden="true"> -->
-      <div class="modal fade" id="initialPostModal"  data-bs-keyboard="false" tabindex="-1" aria-labelledby="initialPostLabel" aria-hidden="true">
+      <!-- Forum post modal-->
+      <div class="modal fade" id="pr1Modal"  data-bs-keyboard="false" tabindex="-1" aria-labelledby="pr1ModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="initialPostLabel">Initial Post</h5>
+              <h5 class="modal-title" id="pr1ModalLabel">Summary Post</h5>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              <p>Between 6 and 7 December 2018, a software failure brought the O2 network down, affecting data services for more than 30 million users in the UK. Other companies that relied on O2 network such as Lycamobile, Giffgaff, Sky Mobile and Tesco Mobile were also affected. London’s bus stop screens and systems aboard more than 8500 London buses also failed due to this incident (Goodley, 2018). O2 offered several types of compensation for its customers depending on their plan, including discounts or credit of days’ worth charges.</p>
-              <p>The failure was caused by an out-of-date licence in a software used by several hardware devices distributed by Ericsson. In total, 11 countries were affected by this failure, causing considerable reputation and monetary damage. O2 was asking for a compensation of as much as 100 million pounds from Ericsson (Goodley, 2018).</p>              
-              <p>Ericsson (2018: 1) declared:</p>              
-              <p>“During December 6, 2018, Ericsson has identified an issue in certain nodes in the core network resulting in network disturbances for a limited number of customers in multiple countries using two specific software versions of the SGSN–MME”.</p>
-              <p>In another press release, SoftBank Corp., a Japanese telecommunications company apologized for the incident that affected their mobile customers nationwide (SoftBank Corp., 2018).</p>              
+              <p>I enjoyed your very detailed and interesting post. Focusing on the weaknesses that you have pointed out, do you think it is safe to say that after the auditing of the software, TrueCrypt would be safe to use after a small patch? Many of the open-source follow-ups to TrueCrypt such as VeraCrypt, had the same vulnerabilities but they corrected them. Also, in 2015, Google’s Project Zero found the first high severity vulnerability in TrueCrypt (Joseph Cox, 30 September 2015), which has a base score of 7.8 in the NIST database (NIST, 2017). It was not clear if this critical bug was also an unintentional error or a deliberate backdoor to the software, and probably one of the reasons behind the sudden TrueCrypt closure.</p>
+              <p>There are several important measures to prevent the risks you have emphasised when it comes to software development. One of the most important would be to carefully check the OWASP vulnerability list, to avoid common errors related to memory, buffers, leaks, and many other risks especially associated with languages such as C. Design patterns are also a must in a project planned to be maintainable, readable and open to modifications. As an open-source project, the lack of more robust management could lead to some design flaws that could eventually make the project hard to sustain.</p>
+              <p></p>
+              <hr>              
               <h4>References:</h4>
-              <p>SoftBank Corp. (2018). Apology for Mobile Communication Service Troubles [press release]. 6 December. Available at: https://www.softbank.jp/en/corp /news/press/sbkk/2018 /20181206_02/ (Accessed: 10 May 2021).</p>
-              <p>Ericsson (2018). Update on software issue impacting certain customers [Press release]. 6 December. Available at: https://www.ericsson.com/en/press-releases/2018/12/update-on-software-issue-impacting-certain-customers (Accessed: 10 May 2021).</p>              
-              <p>Goodley, S. (2018). O2 poised to receive millions from Ericsson over software failure. Available at: https://www.theguardian.com/business/2018/dec/09/o2-poised-to-receive-millions-from-ericsson-over-software-failure (Accessed: 10 May 2021).</p>
+              <p>Cox, J. (September 30, 2015) Encryption Program TrueCrypt Has a Critical Vulnerability. Vice. Available from: https://www.vice.com/en/article/3dkxky/encryption-program-truecrypt-has-a-critical-vulnerability [Accessed 15 October 2021]</p>
+              <p>NIST (2017). CVE-2015-7358 Detail. Available from: https://nvd.nist.gov/vuln/detail/CVE-2015-7358 [Accessed 15 October 2021]</p>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -182,46 +181,25 @@
           </div>
         </div>
       </div>
-
-      <!-- Peer Response 1 modal-->
-      <div class="modal fade" id="pr1Modal"  data-bs-keyboard="false" tabindex="-1" aria-labelledby="pr1PostLabel" aria-hidden="true">
+  
+      <!-- Forum post modal-->
+      <div class="modal fade" id="pr2Modal"  data-bs-keyboard="false" tabindex="-1" aria-labelledby="pr2ModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="pr1PostLabel">Peer response #1</h5>
+              <h5 class="modal-title" id="pr2ModalLabel">Summary Post</h5>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              <p class="lead">Solomon presented an interesting case study where system complexity was highly underestimated. The Queensland health authority in Australia probably made the wrong choice when hiring IBM, even though they did not have experience in similar projects at the time.<p/>
-              <hr>
-              <p>It seems this is a good example of how to do everything wrong. The healthcare authority was slow to audit and keep track of progress, which brings the first big problem: governance.</p>
-              <p>Strictly speaking about the information system design, there was deficient documentation of requirements for a system of such enormous complexity. The time commitment for the initial delivery seemed too short, and without a strict testing plan, it was an impossible task. These issues can be summarized as communication failure. In a project of this size, every effort must be directed toward stablishing good lines of communication between the consultants and every required personnel inside the company.</p>              
-              <p>Grierson (2013: 9) stated: “Department of education, health and CorpTech senior officers were openly critical of the performance of IBM and I was concerned for the future of the relationship with IBM and hence the project”.</p>
+              <p>I have enjoyed your insights about the TrueCrypt case. I would only add that in 2015, Google’s Project Zero found the first high severity vulnerability in TrueCrypt (Joseph Cox, 30 September 2015), which has a base score of 7.8 in the NIST database. Although no vulnerabilities have been found that could affect the encryption of data, the most severe risk is the possibility to take control of the computer giving the attacker permission to elevate his privileges (NIST, 2017).</p>
+              <p>According to the inconsistencies and incidents you have detailed, there are several design aspects that should have been considered. The OWASP vulnerability list is a good starting point that needs to be reviewed, specially when a language like C is used where many buffer or memory errors can compromise the whole system. Several of the vulnerabilities found during the audit project are related to memory dumps where data can be extracted from the disk.</p>
+              <p>Other recommendations include the use of design patterns and implementation of SOLID principles to ensure that code remains open to extensions, maintainable, and readable. As the audit team suggested, the use of comments would highly increase the readability. Modules in this type of project should be decoupled so that any team involved in the project can easily continue with updates and maintenance without risking other modules.</p>
+              <p></p>
+              <hr>              
               <h4>References:</h4>
-              <p>Grierson, M. (2013) Queensland health payroll system commission of inquiry. Available at: http://www.healthpayrollinquiry.qld.gov.au/__data/../assets/pdf_file/0003/184548/Exhibit-149a-Malcolm-Grierson-statement-dated-24-May-2013.pdf. (Accessed: 14 May 2021) </p>
-
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Peer Response 2 modal-->
-      <div class="modal fade" id="pr2Modal"  data-bs-keyboard="false" tabindex="-1" aria-labelledby="pr2PostLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="pr2PostLabel">Peer response #2</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <p class="lead">Kikelomo brought to our attention an interesting case of failure during the 2004 Irish elections, where the Irish government tried to replace the manual voting system by an electronic one. The system turned out to be flawed and had to be discarded just 5 days prior to the elections.<p/>
-              <hr>
-              <p class="fst-italic">"Hi Kikelomo,</p>
-              <p class="fst-italic">It seems that this example showcases a complete failure of several components of an information system. The hardware component along with network and communications components were not planned accordingly to such an important task. The software component also failed, making it impossible to print out vote results. </p>              
-              <p class="fst-italic">It could be argued that the other components of the information system also failed. For example, the people component comprises all those involved in the process, from the testers to the officers who validated the system despite criticism and problems. The data and process components did not deliver the required results for the information system. All the components work together, and it might be considered that only the software failed, but in the end, it is a whole system where every component plays its part to make it work successfully."</p>
+              <p>Cox, J. (September 30, 2015) Encryption Program TrueCrypt Has a Critical Vulnerability. Vice. Available from: https://www.vice.com/en/article/3dkxky/encryption-program-truecrypt-has-a-critical-vulnerability [Accessed 15 October 2021]</p>
+              <p>NIST (2017). CVE-2015-7358 Detail. Available from: https://nvd.nist.gov/vuln/detail/CVE-2015-7358 [Accessed 15 October 2021]</p>
+              <p>Junestam, A. & Guigo, N. (2014) Open Crypto Audit Project Truecrypt Security Assessment. Available from:  https://opencryptoaudit.org/reports/iSec_Final_Open_Crypto_Audit_Project_TrueCrypt_Security_Assessment.pdf [Accessed 15 October 2021]</p>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -257,21 +235,16 @@
         </div>
       </div>
 
-      <!-- OOD principles -->
-      <div class="modal fade" id="principlesModal"  data-bs-keyboard="false" tabindex="-1" aria-labelledby="principlesLabel" aria-hidden="true">
+      <!-- Ontology  -->
+      <div class="modal fade" id="OntologyModal"  data-bs-keyboard="false" tabindex="-1" aria-labelledby="OntologyModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="principlesLabel">Basic principles of Object-Oriented Design</h5>
+              <h5 class="modal-title" id="OntologyModalLabel">Ontology</h5>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              <p class="lead">There are many advantages to this approach such as modularity, which makes it easier to maintain and expand, correct bugs, etc. OOD can improve reliability, flexibility and reusability. However, there are weaknesses if not used correctly or if the technique is abused, making the system hard and costly to integrate with other systems.</p>
-              <hr>
-              <p>Abstraction: removes most superfluous details to leave the most important aspects of the object, so it is easier to use for other types. It represents a reusable, generic object.</p>
-              <p>Encapsulation: it is the concept of joining methods and states (functions and attributes) together in a class. The data is not accessed directly but through the methods inside a class.</p>              
-              <p>Inheritance: having a master class (or super class), other objects can inherit its characteristics (parent to child inheritance). In this case we say that the child is coupled with its parent (super class). Any changes made to the super class, will be transferred to the sub-class.</p>              
-              <p>Polymorphism: occurs when more than one object inherits from a parent class, overriding its default behaviours, while keeping the IS-A relationship with its parent. One object can then take on many forms. </p>
+              <p>It is the representation of an object, including its methods and properties and the relationship between them. </p>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -280,16 +253,52 @@
         </div>
       </div>
 
-      <!-- Supermarket artefact modal-->
-      <div class="modal fade" id="supermarketModal"  data-bs-keyboard="false" tabindex="-1" aria-labelledby="supermarketLabel" aria-hidden="true">
+      <!-- soa  -->
+      <div class="modal fade" id="SOAModal"  data-bs-keyboard="false" tabindex="-1" aria-labelledby="SOAModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="supermarketLabel">Supermarket model</h5>
+              <h5 class="modal-title" id="SOAModalLabel">Service Oriented Architecture (SOA)</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <hr>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Distributed Systems modal-->
+      <div class="modal fade" id="DistributedModal"  data-bs-keyboard="false" tabindex="-1" aria-labelledby="DistributedModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="DistributedModalLabel">Distributed Systems</h5>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
               <img class="img-fluid" src="../assets/img/ssd/unit3/supermarket.jpg"></img>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Microservices modal-->
+      <div class="modal fade" id="MicroservicesModal"  data-bs-keyboard="false" tabindex="-1" aria-labelledby="MicroservicesModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="MicroservicesModalLabel">Microservices</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p></p>>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
