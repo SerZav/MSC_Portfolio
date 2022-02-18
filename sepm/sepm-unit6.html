@@ -72,14 +72,13 @@
           </h2>
           <div id="content" class="accordion-collapse collapse show" aria-labelledby="contentHeading" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              <!-- <p class="lead">Basic principles of Object-Oriented Design</p>
-              <p>The basic principles of Object-Oriented design are abstraction, encapsulation, inheritance and polymorphism. Their goal is to build an information system based upon the objects, its properties and behaviours. </p>
-              <p class="lead">Collaborative Discussion 1: Information System Failure</p>
+              <p class="lead">Codio Activity - pytest</p>
               <p></p>
-              <p>In this unit we gathered enough information to evaluate and summarize the main considerations when designing an information system to avoid the most common failures.</p>
-              <i class="fas fa-comment"></i><a href="#" data-bs-toggle="modal" data-bs-target="#initialPostModal">Initial Post</a>
-              <p></p>
-              -->
+              <p><i class="fas fa-code"></i><a href="#" data-bs-toggle="modal" data-bs-target="#codio1Modal">TDD Exercise</a></p>
+              <p><i class="fab fa-github"></i><a href="https://github.com/SerZav/EssexCodio/blob/main/sepm/unit6/tests/test_wallet/test_wallet.py" target="_blank">Main program (GitHub)</a></p>
+              <p><i class="fab fa-github"></i><a href="https://github.com/SerZav/EssexCodio/blob/main/sepm/unit6/tests/test_wallet/test_wallet.py" target="_blank">Test passing (GitHub)</a></p>
+              <p><i class="fab fa-github"></i><a href="https://github.com/SerZav/EssexCodio/blob/main/sepm/unit6/tests/test_wallet/test_wallet_fails.py" target="_blank">Test failing (GitHub)</a></p>
+              <hr>
             </div>
           </div>
         </div>
@@ -95,6 +94,10 @@
             <div class="accordion-body">
               <p></p>
               <p>.</p>
+              <p class="lead">Content</p>
+              <p>There is a very interesting amount of content that I did not have time to review because I was working on the assignment. However, I had the opportunity to work on some resources and information researched that was very useful and will help me in my daily tasks. At this point, I have acquired important information for project management, which will help me get a better insight into the tools and processes that I get confronted with every day.</p>
+              <p class="lead">Teamwork</p>
+              <p>There were times when some team members felt disconnected from the group, especially between units 3 and 5. It was hard for those that were PM during that period because they had to get acquainted with new software and tools while working on the assignment and studying new content. Fortunately, other team members were very supportive and worked hard to compensate. This behaviour is somehow similar to that in company environments where some members of a group tend to carry out most of the work if they are not pushed by the PM. The hard part here was to make everyone work as a team and participate in every activity since it was a big group.</p>
             </div>
           </div>
         </div>
@@ -108,10 +111,14 @@
           </h2>
           <div id="learning" class="accordion-collapse collapse" aria-labelledby="learningHeading" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              <p><i class="fas fa-check-square"></i> .</p>
+              <p><i class="fas fa-check-square"></i> Achieve an application development through using test-driven development. </p>
+              <p><i class="fas fa-check-square"></i> Appreciate the roles to be played when working within User Experience research.</p>
+              <p><i class="fas fa-check-square"></i>Contextualise a reaction to a software development project on the basis of the emotions of the stakeholders.</p>
               <hr>
               <p class="lead">Research topics</p>
-              <p><i class="fas fa-check"></i> .</p>
+              <p><i class="fas fa-check"></i> Investigate the test-driven development of an application in Python which makes use of pytest.</p>
+              <p><i class="fas fa-check"></i> Examine the role responsibilities of a User Experience researcher.</p>
+              <p><i class="fas fa-check"></i> Consider the impact of emotional reactions on user experience.</p>
             </div>
           </div>
         </div>
@@ -137,10 +144,12 @@
             <div class="accordion-body">
               <p class="lead">Required Reading</p>
               <hr>
-
+              <p><i class="fas fa-link"></i>Krekel, H. et al. (n.d.) Pytest: helps you write better programs. Pytest. </p>
+              <p><i class="fas fa-link"></i>Giacomelli, J. (2020) Modern Test-driven Development in Python. </p>
               <p class="lead">Additional Reading</p>
               <hr>
-
+              <p><i class="fas fa-link"></i>Hillard, D. (n.d.) Effective Python Testing With Pytest.</p>
+              <p><i class="fas fa-link"></i>Mahlke, S. (2005) Understanding users' experience of interaction. In Proceedings of the 2005 annual conference on European association of cognitive ergonomics. 251–254.</p>
             </div>
           </div>
         </div>
@@ -169,6 +178,44 @@
           </div>
         </div>
       </div>
+
+      <!-- Image modal -->
+      <div class="modal fade" id="codio1Modal"  data-bs-keyboard="false" tabindex="-1" aria-labelledby="codioLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="codioLabel">Code Sample 1</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>The Test-Driven Development approach starts by writing the tests that cover the business use-cases so that they fail. In this excercise we started from a code with passing tests (test_wallet.py). In order to achieve the first TDD rule we must make the tests fail. </p>
+              <p class ="lead">File wallet.py: main program</p>
+              <img class="img-fluid" src="../assets/img/sepm/unit6/wallet.jpg"></img>
+              <p><i class="fab fa-github"></i><a href="https://github.com/SerZav/EssexCodio/blob/main/sepm/unit6/wallet/wallet.py" target="_blank">(Watch on GitHub)</a></p>
+              <hr>
+
+              <p class ="lead">File test_wallet.py: program with passing tests</p>
+              <img class="img-fluid" src="../assets/img/sepm/unit6/test_wallet.jpg"></img>
+              <p><i class="fab fa-github"></i><a href="https://github.com/SerZav/EssexCodio/blob/main/sepm/unit6/tests/test_wallet/test_wallet.py" target="_blank">(Watch on GitHub)</a></p>
+              <hr>
+
+              <p class ="lead">File test_wallet_fail.py: this test file has been modified to fail all the tests </p>
+              <img class="img-fluid" src="../assets/img/sepm/unit6/test_wallet_modified.jpg"></img>
+              <p><i class="fab fa-github"></i><a href="https://github.com/SerZav/EssexCodio/blob/main/sepm/unit6/tests/test_wallet/test_wallet_fails.py" target="_blank">(Watch on GitHub)</a></p>
+              <hr>
+
+              
+              <p class ="lead">I have used the recommended file structure for pytest testing (Giacomelli, 2020). All tests included in the test folder will be executed with the command "python -m pytest tests". The result is shown in the image below</p>
+              <img class="img-fluid" src="../assets/img/sepm/unit6/test_Results.jpg"></img>              
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <p><i class="fab fa-github"></i><a href="https://github.com/SerZav/EssexCodio/blob/main/sepm/unit6/tests/test_wallet/test_wallet.py" target="_blank">Test passing (GitHub)</a></p>
 
 
       <!-- Image modal -->
