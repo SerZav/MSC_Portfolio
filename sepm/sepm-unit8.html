@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <title>SEPM Unit x / e-Portfolio / MSc Computer Science</title>
+    <title>SEPM Unit 8 / e-Portfolio / MSc Computer Science</title>
     
     <!-- Bootstrap core CSS -->
     <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -48,13 +48,13 @@
             <ul class="breadcrumb">
               <li ><a href="../index.html"><i class="fas fa-home"></i> Home</a></li>
               <li ><a href="sepm.html">System Engineering Project Management</a></li>
-              <li >Unit x</li>
+              <li >Unit 8</li>
             </ul>
         </div>
         <div class="row subtitleCompact" data-aos="fade-up" data-aos-duration="3000">
           <p class="lead">System Engineering Project Management</p>
           <div>
-            <p class="lead"><i class="fas fa-book-open"></i> UNIT x - </p>
+            <p class="lead"><i class="fas fa-book-open"></i> UNIT 8 - Risk Assessment and Estimating Tools</p>
           </div>
         </div>        
       </nav>
@@ -67,19 +67,17 @@
         <div class="accordion-item">
           <h2 class="accordion-header" id="contentHeading">
             <button class="accordion-button collapsed subtitle2 btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#content" aria-expanded="true" aria-controls="learning">
-                <p class="lead">Content / Learning activities / Artefacs</p>
+                <p class="lead">Content / Formative activities / Artefacs</p>
             </button>
           </h2>
           <div id="content" class="accordion-collapse collapse show" aria-labelledby="contentHeading" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              <!-- <p class="lead">Basic principles of Object-Oriented Design</p>
-              <p>The basic principles of Object-Oriented design are abstraction, encapsulation, inheritance and polymorphism. Their goal is to build an information system based upon the objects, its properties and behaviours. </p>
-              <p class="lead">Collaborative Discussion 1: Information System Failure</p>
-              <p></p>
-              <p>In this unit we gathered enough information to evaluate and summarize the main considerations when designing an information system to avoid the most common failures.</p>
-              <i class="fas fa-comment"></i><a href="#" data-bs-toggle="modal" data-bs-target="#initialPostModal">Initial Post</a>
-              <p></p>
-              -->
+              <i class="fas fa-comment"></i><a href="#" data-bs-toggle="modal" data-bs-target="#contentModal">Risks associated with Global Software Development</a>
+              <hr>
+              <i class="fas fa-comment"></i><a href="#" data-bs-toggle="modal" data-bs-target="#wikiModal">Wiki Entry: Risks and risk mitigation</a>
+              <hr>
+              <i class="fas fa-comment"></i><a href="#" data-bs-toggle="modal" data-bs-target="#cocomoModal">Estimating: Cocomo using Python</a>
+
             </div>
           </div>
         </div>
@@ -108,10 +106,15 @@
           </h2>
           <div id="learning" class="accordion-collapse collapse" aria-labelledby="learningHeading" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              <p><i class="fas fa-check-square"></i> .</p>
+              <p><i class="fas fa-check-square"></i> Select an appropriate tool for project estimation based on a number of common factors.</p>
+              <p><i class="fas fa-check-square"></i> Utilise the tool to create a project estimate.</p>
+              <p><i class="fas fa-check-square"></i> Evaluate the usefulness of the tool in estimating.</p>
+              <p><i class="fas fa-check-square"></i> Discuss risk evaluation and mitigation approaches.</p>
               <hr>
               <p class="lead">Research topics</p>
-              <p><i class="fas fa-check"></i> .</p>
+              <p><i class="fas fa-check"></i> Discuss risks and risk mitigation in large software projects.</p>
+              <p><i class="fas fa-check"></i> Review a number of estimating tools.</p>
+              <p><i class="fas fa-check"></i> Produce an estimate for our summative project utilising the tools reviewed.</p>
             </div>
           </div>
         </div>
@@ -137,10 +140,8 @@
             <div class="accordion-body">
               <p class="lead">Required Reading</p>
               <hr>
-
-              <p class="lead">Additional Reading</p>
-              <hr>
-
+              <p><i class="fas fa-link"></i>Verner, M., Brereton, P., Kitchenham, A., Turner, M. & Niazi, M. (2014) Risks and risk mitigation in global software development: A tertiary study. Information and Software Technology 56(1):54–78. </p>‌
+              <p><i class="fas fa-link"></i>Anton, G. & Nucu, A. (2020). Enterprise Risk Management: A Literature Review and Agenda for Future Research. Journal of Risk and Financial Management 13(11): 281.</p>
             </div>
           </div>
         </div>
@@ -162,6 +163,51 @@
               <h4>References:</h4>
               <p></p>
 
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="contentModal"  data-bs-keyboard="false" tabindex="-1" aria-labelledby="contentModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="contentModalLabel">Risks associated with Global Software Development</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>According to the paper by Verner et al (2014), one of the most commonly identified risks while working off-shore teams is the know-how gap against on-shore. It comes with associated costs that might not become apparent until the project is in an advanced stage. Even when local teams of developers are usually multicultural, the fact that they live in the same country where the project is being developed, might facilitate some communication, and could affect the outcome when the complexity of the project is high (Verner et al., 2014).</p>
+              <p>Other risks include communication problems due to language or cultural differences, and time-zone disparities; bad cost estimation due to currency changes or difficulties to keep the same team members during the project; scope creep or difficulties to have a well-defined scope during the project, which can derive in higher costs, mostly due to bad communication channels or lack of experience of project management.</p>
+              <hr>              
+              <h4>References:</h4>
+              <p><i class="fas fa-link"></i> Verner, J.M., Brereton, O.P., Kitchenham, B.A., Turner, M. and Niazi, M., 2014. Risks and risk mitigation in global software development: A tertiary study. <i>Information and Software </i>Technology, 56(1), pp.54-78.</p>
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="wikiModal"  data-bs-keyboard="false" tabindex="-1" aria-labelledby="wikiModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="wikiModalLabel">Wiki Entry: Risks and risk mitigation</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>This term refers to a project that goes beyond the scope, growing without control, causing cost and time issues. It is a risk associated with complex projects that is more common in Global Software Development or off-shore. Some causes can include difficulty communicating effectively between team members or with the client, lack of management experience and bad design.</p>
+              <p>One way to mitigate this risk is to use an experienced team for the task, clearly defining the project scope from the beginning, involving all the stakeholders to avoid or reduce misunderstandings.p>
+              <hr>
+              <p class="lead"><i class="fas fa-comment"></i> Tutor's question</p>
+              <p><i>"If you didn't have an experienced team how else would you mitigate this element of the risk of scope creep?"</i></p>
+              <p>One way to decrease scope creep chances is involving end-users so that they can participate from the beginning in communicating their requirements and giving feedback on deployed features.</p>
+              <p>Another measure is to work on developers and stakeholders education. It is critical to make sure that team members know exactly the scope of the project and the time available for each task. This approach helps to avoid Gold Plating. This term is related to features or improvements that the team add to achieve perfection, even though they have not been required by the users. These features can cause delays or increase project complexity, thus creating scope creep, and there is no guarantee that they will increase customer satisfaction.</p>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
